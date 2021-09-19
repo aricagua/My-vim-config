@@ -9,7 +9,7 @@
    This vimrc file was created on the 
   </p>
 </p>
-[tutorial from FreecodeCamp](shorturl.at/izTU1)
+[tutorial from FreecodeCamp](https://shorturl.at/izTU1)
 I recommend taking a look before  to FreecodeCamp tutorial :wink: 
 
 ## Table of contents
