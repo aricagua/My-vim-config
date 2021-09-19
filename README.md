@@ -7,9 +7,9 @@
 
   <p align="center">
    This vimrc file was created on the <a href="https://shorturl.at/izTU1">Frecodecamp tutorial</a> 
+    I recommend taking a look before  to FreecodeCamp tutorial :wink: 
   </p>
 </p>
-I recommend taking a look before  to FreecodeCamp tutorial :wink: 
 
 ## Table of contents
 
