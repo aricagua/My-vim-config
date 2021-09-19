@@ -6,10 +6,9 @@
   <h3 align="center">My Vim Configuration</h3>
 
   <p align="center">
-   This vimrc file was created on the 
+   This vimrc file was created on the <a href="https://shorturl.at/izTU1">Frecodecamp tutorial</a> 
   </p>
 </p>
-[tutorial from FreecodeCamp](https://shorturl.at/izTU1).
 I recommend taking a look before  to FreecodeCamp tutorial :wink: 
 
 ## Table of contents
