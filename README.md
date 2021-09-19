@@ -6,7 +6,7 @@
   <h3 align="center">My Vim Configuration</h3>
 
   <p align="center">
-   This vimrc file was created about the tutorial from FreecodeCamp <link>shorturl.at/izTU1</link>
+   This vimrc file was created on the <link href='shorturl.at/izTU1'>tutorial from FreecodeCamp</link> 
   </p>
 </p>
 
