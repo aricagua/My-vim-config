@@ -6,11 +6,11 @@
   <h3 align="center">My Vim Configuration</h3>
 
   <p align="center">
-   This vimrc file was created on the <link href='shorturl.at/izTU1'>tutorial from FreecodeCamp</link> 
+   This vimrc file was created on the [tutorial from FreecodeCamp](shorturl.at/izTU1)
   </p>
 </p>
 
-    I recommend taking a look before  to FreecodeCamp tutorial :wink 
+    I recommend taking a look before  to FreecodeCamp tutorial :wink: 
 
 ## Table of contents
 
