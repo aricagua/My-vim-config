@@ -6,7 +6,8 @@
   <h3 align="center">My Vim Configuration</h3>
 
   <p align="center">
-   This vimrc file was created about the tutorial from FreecodeCamp <link>shorturl.at/izTU1<link> 
+   This vimrc file was created about the tutorial from FreecodeCamp <link>shorturl.at/izTU1<link>
+    I recommend taking a look before :wink 
   </p>
 </p>
 
