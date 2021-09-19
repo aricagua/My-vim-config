@@ -33,8 +33,14 @@ augroup END
 " }}}
 
 
-
-
+" Automatic Closing Brackets  ----------------------------------------------------------------{{{
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>0
+inoremap {;<CR> {<CR>};<ESC>0
+" }}}
 
 
 " Disable compatibility with vi which can cause unexpected issues.
