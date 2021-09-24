@@ -34,13 +34,15 @@ main(){
 	git clone https://github.com/vim/vim.git
 	cd vim
 	./configure --with-features=huge \
-		--enable-multibyte \
-		--enable-rubyinterp \
-		--enable-pythoninterp \
+		--enable-multibyte=yes \
+		--enable-rubyinterp=yes \
+		--enable-pythoninterp=yes \
 		--with-python-config-dir=/usr/lib/python2.7/config \
-		--enable-perlinterp \
-		--enable-luainterp \
-		--enable-gui=gtk2 \
+		--enable-python3interp=yes \
+		--with-python-config-dir=/usr/lib/python3.8/config \
+		--enable-perlinterp=yes \
+		--enable-luainterp=yes \
+		--enable-gui=auto --enable-gtk2-check --with-x #This is for clipboard support 
 		--enable-cscope \
 		--prefix=/usr
 	make VIMRUNTIMEDIR=/usr/share/vim/vim82 #with the actual version	
