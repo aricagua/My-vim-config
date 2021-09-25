@@ -9,8 +9,9 @@
 " MAPPINGS ----------------------------------------------------------------{{{
 
 " Mappings code goes here.
-
-
+  
+" Key mapping syntax is like this:
+" map_mode <what_you_type> <what_is_executed>
 " }}}
 
 " VIMSCRIPT ----------------------------------------------------------------{{{
@@ -43,6 +44,8 @@ inoremap {<CR> {<CR>}<ESC>0
 inoremap {;<CR> {<CR>};<ESC>0
 " }}}
 
+" Default copy/paste from system clipboard
+set clipboard=unnamedplus
 
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
@@ -103,4 +106,12 @@ set showmatch
 " Use highlighting when doing a search.
 set hlsearch
 
+" Enable auto completion menu after pressing TAB.
+set wildmenu
 
+" Make wildmenu behave like similar to Bash completion.
+set wildmode=list:longest
+
+" There are certain files that we would never want to edit with Vim.
+" Wildmenu will ignore files with these extensions.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
