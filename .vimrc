@@ -74,8 +74,26 @@ augroup filetype_vim
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
 
-"More Vimscripts code goes here.
-" }}}
+" If the current file type is HTML, set indentation to 2 spaces.
+autocmd Filetype html setlocal tabstop=2 shiftwidth=2 expandtab
+
+" If Vim version is equal to or greater than 7.3 enable undofile.
+" This allows you to undo changes to a file even after saving it.
+if version >= 703
+    set undodir=~/.vim/backup
+    set undofile
+    set undoreload=10000
+endif
+
+" You can split a window into sections by typing `:split` or `:vsplit`.
+" Display cursorline and cursorcolumn ONLY in active window.
+augroup cursor_off
+    autocmd!
+    autocmd WinLeave * set nocursorline nocursorcolumn
+    autocmd WinEnter * set cursorline cursorcolumn
+augroup END
+
+"}}}
 
 " STATUS LINE ----------------------------------------------------------------{{{
 
@@ -83,7 +101,6 @@ augroup END
 
 
 " }}}
-
 
 " Automatic Closing Brackets  ----------------------------------------------------------------{{{
 inoremap " ""<left>
@@ -120,7 +137,7 @@ set number
 set cursorline
 
 " Highlight cursor line underneath the cursor vertically.
-set cursorcolumn
+"set cursorcolumn
 
 " Set shift width to 4 spaces.
 set shiftwidth=4
